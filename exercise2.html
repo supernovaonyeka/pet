@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <style>
+    .parent {
+      width: 100%;
+      display: flex;
+    }
+
+    .header h1 {
+      font-size: 3rem;
+    }
+
+    .child_one{
+      flex: 30%;
+      margin-left: 5.5rem;
+    }
+
+    .child_two {
+      flex: 30%;
+      background: url(./dog.avif) no-repeat;
+    }
+
+    .content_one {
+      display: flex;
+    }
+
+    .content_one p {
+      margin-left: 15px;
+    }
+
+    .content_two {
+      display: flex;
+    }
+
+    .content_two p {
+      margin-left: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="parent">
+    <div class="child_one">
+       <div class="header">
+        <h1>Pet owners were <br>happier and <br>healthier than <br>nonowners</h1>
+
+        <p>image from <span style="color: purple; font-family: cursive;">Mr Onyeka</span> </p>
+       </div>
+
+       <div class="content">
+        <div class="content_one">
+          <ion-icon name="arrow-redo-circle-outline" style="background-color: purple; padding: 15px; border-radius: 50%;"></ion-icon>
+          <p>Sample text. click to select the text box. click again or double click to start 
+            editing the text. Duis oute irure dolor</p>
+        </div>
+        <div class="content_two">
+          <ion-icon name="arrow-redo-circle-outline" style="background-color: purple; padding: 15px; border-radius: 50%;"></ion-icon>
+          <p>Sample text. click to select the text box. click again or double click to start 
+            editing the text. Duis oute irure dolor</p>
+        </div>
+       </div>
+    </div>
+
+    <div class="child_two">
+      <!-- <img src="./dog.avif" alt=""> -->
+    </div>
+  </div>
+</body>
+</html>
